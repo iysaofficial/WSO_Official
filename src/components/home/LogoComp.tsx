@@ -10,7 +10,7 @@ const LogoComp = () =>{
             <div className="brand-logo">
                 <ul>
                     <li>
-                        <img src="/assets/logo/LogoIYSA.webp" alt=""/>
+                        <img src="/assets/logo/LogoIYSA.WebP" alt=""/>
                     </li>
                     <li>
                         <img src="/assets/logo/undip.png" alt=""/>

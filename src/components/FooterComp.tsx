@@ -19,7 +19,7 @@ const FooterComp = () =>{
                     </Link>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/iye.olympiad?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target='_blank'>
+                    <a href="https://www.instagram.com/wso.officiall?utm_source=ig_web_button_share_sheet&igsh=MTV0dWVqOHJ2YjJ4NA==" target='_blank'>
                         <i className="fab fa-instagram"></i>
                     </a>
                 </li>
