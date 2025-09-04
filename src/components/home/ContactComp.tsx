@@ -1,6 +1,38 @@
+"use client";
+import React, { useEffect } from "react";
 import Link from "next/link"
 
 const ContactComp = () =>{
+    useEffect(() => {
+        const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzdgUOy_s6zjJQTgqXQ7GX3H1_w6TvWq1hsBZgH0mSREWt3qXCKA34-qo74-jfDVbHE/exec";
+
+        const form = document.forms.namedItem("home-contact");
+
+        if (form) {
+        const handleSubmit = async (e: Event) => {
+            e.preventDefault();
+            try {
+            await fetch(scriptURL, {
+                method: "POST",
+                body: new FormData(form),
+            });
+            alert("Message sent successfully!");
+            form.reset();
+            } catch (error) {
+            console.error("Error:", error);
+            alert("Failed to send Message.");
+            }
+        };
+
+        form.addEventListener("submit", handleSubmit);
+
+        // cleanup listener
+        return () => {
+            form.removeEventListener("submit", handleSubmit);
+        };
+        }
+    }, []);
     return(
         <>
         <section className="contact-section" id="contact">
@@ -30,15 +62,16 @@ const ContactComp = () =>{
                     <div className="right-side">
                         <div className="topic-text">Send us a message</div>
                         {/* <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. it's my pleasure to help you.</p> */}
-                        <form action="https://formspree.io/f/mgeglpyp" method="POST">
+                        <form action="" method="POST" name="home-contact">
+                            <input type="hidden" name="Event" value="WSO" readOnly />
                             <div className="input-box">
-                                <input type="text" name="name" placeholder="Enter your name"/>
+                                <input type="text" name="Name" placeholder="Enter your name"/>
                             </div>
                             <div className="input-box">
-                                <input type="email" name="email" placeholder="Enter your email"/>
+                                <input type="email" name="Email" placeholder="Enter your email"/>
                             </div>
                             <div className="input-box message-box">
-                                <textarea placeholder="Enter your message" name="message"></textarea>
+                                <textarea placeholder="Enter your message" name="Message"></textarea>
                             </div>
                             <div className="button">
                                 <input type="submit" value={"Send"}/>
