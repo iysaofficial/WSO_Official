@@ -8,9 +8,9 @@ const HeroComp = () =>{
                 <img src="/assets/logo/WSO Bordered.png" alt="" />
                 <div className="hero-text">
                     <h1>World Science Olympiad</h1>
-                    <p>Registration is now open for the World Science Olympiad! Join this prestigious event and gain an unforgettable experience!</p>
+                    {/* <p>Registration is now open for the World Science Olympiad! Join this prestigious event and gain an unforgettable experience!</p> */}
                     <br />
-                    <Link href="https://registration-wso-2025.vercel.app/">Registration</Link>
+                    <Link href="#">Registration</Link>
                 </div>
             </div>
         </section>
