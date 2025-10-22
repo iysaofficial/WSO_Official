@@ -10,7 +10,7 @@ const HeroComp = () =>{
                     <h1>World Science Olympiad</h1>
                     {/* <p>Registration is now open for the World Science Olympiad! Join this prestigious event and gain an unforgettable experience!</p> */}
                     <br />
-                    <Link href="#">Registration</Link>
+                    <Link href="#">Close Registration</Link>
                 </div>
             </div>
         </section>
