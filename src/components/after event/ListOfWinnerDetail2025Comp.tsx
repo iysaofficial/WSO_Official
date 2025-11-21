@@ -1,22 +1,22 @@
 import Link from "next/link"
 
-const ListOfWinnerDetail2024Comp = () => {
+const ListOfWinnerDetail2025Comp = () => {
     return(
         <>
         <section className="low-detail-header-section">
             <div className="low-detail-header-content">
-                <h2>WSO 2024</h2>
+                <h2>WSO 2025</h2>
             </div>
         </section>
         <section className="low-detail-after-event-section" id="low-detail-after-event">
             <div className="low-detail-after-event-heading">
-                <h1 className="section-header">After Event WSO 2024</h1>
+                <h1 className="section-header">After Event WSO 2025</h1>
             </div>
             <div className="low-detail-after-event-container">
                 <div className="low-detail-after-event-row">
 
                     <div className="low-detail-after-event-video">
-                        <iframe className="mt-5"  width="100%" height="415" src="https://www.youtube.com/embed/qUYhvRX0VWE?si=Tg2vzxMiHVQPpndk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <iframe className="mt-5"  width="100%" height="415" src="https://www.youtube.com/embed/F9ApBr_8UP0?si=XhTsMrxckmOpzFsp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
         
                     <div className="low-detail-after-event-p">
@@ -35,7 +35,7 @@ const ListOfWinnerDetail2024Comp = () => {
         
         <section className="head-low-detail-document-section" id="head-low-detail-document">
             <div className="head-low-detail-document-heading">
-                <h1 className="section-header">After Event Document 2024</h1>
+                <h1 className="section-header">After Event Document 2025</h1>
             </div>
         </section>
         <section className="low-detail-document-section" id="low-detail-document">
@@ -46,9 +46,31 @@ const ListOfWinnerDetail2024Comp = () => {
                         <i className="fa-solid fa-trophy"></i>
                     </div>
                     <div className="content">
-                        <h2>List of Winner Offline</h2>
+                        <h2>List of Winner Junior High School</h2>
                         <br />
-                        <Link href="https://drive.google.com/file/d/1LFaZ3dprfTxcVfqfwKjSLpKMCb8caDS8/view?usp=sharing" target="_blank" className="low-detail-document-button">Download</Link>
+                        <Link href="https://drive.google.com/file/d/1rXuA3HE6urVcSis2aNwHdohybB6cYOZ4/view?usp=sharing" target="_blank" className="low-detail-document-button">Download</Link>
+                    </div>
+                </div>
+
+                <div className="serviceBox">
+                    <div className="icon">
+                        <i className="fa-solid fa-trophy"></i>
+                    </div>
+                    <div className="content">
+                        <h2>List of Winner Senior High School</h2>
+                        <br />
+                        <Link href="https://drive.google.com/file/d/1qRoVz_SHb6jtOvD-3SKV7SlPfDGf41iJ/view?usp=sharing" target="_blank" className="low-detail-document-button">Download</Link>
+                    </div>
+                </div>
+
+                <div className="serviceBox">
+                    <div className="icon">
+                        <i className="fa-solid fa-trophy"></i>
+                    </div>
+                    <div className="content">
+                        <h2>List of Winner University</h2>
+                        <br />
+                        <Link href="https://drive.google.com/file/d/1LvVTlez2R8HX3CZHTIgtzdCyGO9ArGK1/view?usp=sharing" target="_blank" className="low-detail-document-button">Download</Link>
                     </div>
                 </div>
 
@@ -59,7 +81,7 @@ const ListOfWinnerDetail2024Comp = () => {
                     <div className="content">
                         <h2>Curation</h2>
                         <br />
-                        <Link href="https://drive.google.com/drive/folders/1CMCbLF0cxqdvB86aw4E2l9GeXLD-KrRk?usp=sharing" target="_blank" className="low-detail-document-button">Download</Link>
+                        <Link href="#" target="_blank" className="low-detail-document-button">Coming Soon</Link>
                     </div>
                 </div>
 
@@ -72,19 +94,19 @@ const ListOfWinnerDetail2024Comp = () => {
 
         <section className="head-low-detail-document-section" id="head-low-detail-document">
             <div className="head-low-detail-document-heading">
-                <h1 className="section-header">Press Release 2024</h1>
+                <h1 className="section-header">Press Release 2025</h1>
             </div>
             <section className="low-press-release-section">
                 <div className="low-press-release-container">
                     <div className="low-press-release-wrapper">
 
-                    <iframe src="https://drive.google.com/file/d/1FUjYSfp1CGCyzpu6avuQWQBynTsyCkbc/preview"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1INBoDI9Lb1DOFMDWeTXf-BeR27g2o096/preview"></iframe>
                     
                     </div>
                 </div>
             </section>
             <div className="low-press-release-button-container">
-                <Link href="https://drive.google.com/file/d/1FUjYSfp1CGCyzpu6avuQWQBynTsyCkbc/view?usp=sharing" className="low-press-release-button">Download Press Release</Link>
+                <Link href="https://drive.google.com/file/d/1INBoDI9Lb1DOFMDWeTXf-BeR27g2o096/view?usp=sharing" className="low-press-release-button">Download Press Release</Link>
             </div>
         </section>
         <br />
@@ -92,4 +114,4 @@ const ListOfWinnerDetail2024Comp = () => {
     )
 }
 
-export default ListOfWinnerDetail2024Comp
+export default ListOfWinnerDetail2025Comp
