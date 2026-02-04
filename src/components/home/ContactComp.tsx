@@ -49,7 +49,7 @@ const ContactComp = () =>{
                         <div className="phone details">
                             <i className="fas fa-phone-alt"></i>
                             <div className="text-one">Phone</div>
-                            <div className="text-one"><Link href="https://wa.me/+6283870026877" target="_blank">+6283870026877</Link></div>
+                            <div className="text-one"><Link href="https://wa.me/+6288213248890" target="_blank">+6288213248890</Link></div>
                             <div className="text-two"></div>
                         </div>
                         <div className="email details">
